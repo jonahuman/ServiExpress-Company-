@@ -44,13 +44,13 @@ while True:
         nombre_auto=str(input("ingrese nombre:   ")).strip().upper()
         while not len(nombre_auto)>0:
             print("Error.. no puede dejar el campo vacío")
-            nombre_auto=str(input("Ingrese nombre")).strip().upper()
+            nombre_auto=str(input("Ingrese nombre:  ")).strip().upper()
         lista_auto.append(modelo)
         
         marca=str(input("Ingrese marca:     ")).strip().upper()
         while not len(marca)>0:
             print("Error.. no puede dejar este campo vacío")
-            nombre=str(input("Ingresa marca de vehículo")).strip().upper()
+            nombre=str(input("Ingresa marca de vehículo:    ")).strip().upper()
         lista_marca.append(marca)
         
         tipo_vehiculo=str(input("Ingrese tipo de vehículo:  ")).strip().lower()
